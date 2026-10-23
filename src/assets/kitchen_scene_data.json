@@ -1,0 +1,5612 @@
+{
+  "metadata": {
+    "title": "Messy Kitchen Racer - 3D Scene & Collision Data",
+    "version": "1.0.0",
+    "coordinateSystem": "Three.js Y-Up Right-Handed (X: Right, Y: Up, Z: South/Foreground)",
+    "counterHeight": 9.0,
+    "floorHeight": 0.0,
+    "totalTrackLength": 139.408,
+    "waypointCount": 160,
+    "checkpointCount": 10
+  },
+  "startGrid": {
+    "position": [
+      -4.0,
+      9.15,
+      16.0
+    ],
+    "forward": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "rotationY": -1.5707963267948966,
+    "rowSpacing": 2.2,
+    "lateralSpacing": 1.8
+  },
+  "architecture": {
+    "counterSlabs": [
+      {
+        "id": "peninsula_counter_slab",
+        "name": "Foreground White Quartz Peninsula Counter",
+        "center": [
+          -10.0,
+          8.65,
+          16.0
+        ],
+        "size": [
+          28.0,
+          0.7,
+          12.0
+        ],
+        "topY": 9.0,
+        "color": "#f3f1eb"
+      },
+      {
+        "id": "left_wall_counter_slab",
+        "name": "Left Wall White Quartz Counter (Sink & Appliances)",
+        "center": [
+          -16.0,
+          8.65,
+          -7.0
+        ],
+        "size": [
+          16.0,
+          0.7,
+          34.0
+        ],
+        "topY": 9.0,
+        "color": "#f3f1eb"
+      },
+      {
+        "id": "back_wall_counter_slab",
+        "name": "Back Wall White Quartz Counter (6-Burner Stove)",
+        "center": [
+          4.0,
+          8.65,
+          -20.0
+        ],
+        "size": [
+          40.0,
+          0.7,
+          8.0
+        ],
+        "topY": 9.0,
+        "color": "#f3f1eb"
+      },
+      {
+        "id": "right_bridge_counter_slab",
+        "name": "Right Stove-to-Ramp Launch Deck",
+        "center": [
+          15.5,
+          8.65,
+          -14.0
+        ],
+        "size": [
+          8.0,
+          0.7,
+          6.0
+        ],
+        "topY": 9.0,
+        "color": "#f3f1eb"
+      }
+    ],
+    "baseCabinets": [
+      {
+        "id": "peninsula_base_cabinet",
+        "center": [
+          -10.0,
+          4.15,
+          15.5
+        ],
+        "size": [
+          26.8,
+          8.3,
+          10.2
+        ],
+        "color": "#28201c"
+      },
+      {
+        "id": "left_base_cabinet",
+        "center": [
+          -16.5,
+          4.15,
+          -7.0
+        ],
+        "size": [
+          14.5,
+          8.3,
+          33.0
+        ],
+        "color": "#28201c"
+      },
+      {
+        "id": "back_base_cabinet",
+        "center": [
+          4.0,
+          4.15,
+          -20.2
+        ],
+        "size": [
+          39.0,
+          8.3,
+          7.2
+        ],
+        "color": "#28201c"
+      },
+      {
+        "id": "far_left_white_storage",
+        "center": [
+          -26.5,
+          3.6,
+          20.5
+        ],
+        "size": [
+          5.0,
+          7.2,
+          10.0
+        ],
+        "color": "#e6e7eb"
+      }
+    ],
+    "upperCabinets": [
+      {
+        "id": "upper_left_frosted_cabinet",
+        "name": "4-Door Dark Wood & Frosted Glass Upper Cabinet (with Red Chinese Knot Ornament)",
+        "center": [
+          -19.5,
+          18.5,
+          5.5
+        ],
+        "size": [
+          4.2,
+          7.5,
+          16.5
+        ],
+        "color": "#28201c",
+        "frostedGlassColor": "#cad4d9",
+        "hasChineseKnot": true,
+        "chineseKnotPosition": [
+          -17.2,
+          15.2,
+          7.5
+        ]
+      },
+      {
+        "id": "upper_corner_frosted_cabinet",
+        "name": "Back-Left Corner Frosted Glass Upper Cabinet",
+        "center": [
+          -16.0,
+          18.5,
+          -20.5
+        ],
+        "size": [
+          9.5,
+          7.5,
+          4.2
+        ],
+        "color": "#28201c",
+        "frostedGlassColor": "#cad4d9"
+      }
+    ],
+    "pantryAndWalls": [
+      {
+        "id": "dark_wood_pantry_column",
+        "name": "Tall Dark Wood Pantry Enclosure with Red Hanging Calendar",
+        "center": [
+          22.5,
+          11.5,
+          -6.0
+        ],
+        "size": [
+          6.5,
+          23.0,
+          9.5
+        ],
+        "color": "#241c18",
+        "calendarPosition": [
+          22.5,
+          12.8,
+          -1.2
+        ]
+      },
+      {
+        "id": "foreground_multiplication_pillar",
+        "name": "Right Foreground Wall Pillar with 1x-12x Multiplication Chart",
+        "center": [
+          26.5,
+          12.0,
+          18.0
+        ],
+        "size": [
+          4.5,
+          24.0,
+          8.0
+        ],
+        "color": "#eceae4",
+        "chartPosition": [
+          24.2,
+          10.5,
+          18.0
+        ]
+      },
+      {
+        "id": "sink_window_with_blinds",
+        "name": "Kitchen Window with Beige Venetian Blinds",
+        "center": [
+          -23.8,
+          16.5,
+          -10.0
+        ],
+        "size": [
+          0.6,
+          9.5,
+          11.0
+        ],
+        "color": "#d8c8b0"
+      }
+    ]
+  },
+  "trackWaypoints": [
+    {
+      "index": 0,
+      "position": [
+        -4.0,
+        9.0,
+        16.0
+      ],
+      "forward": [
+        -0.9987,
+        -0.0183,
+        -0.0469
+      ],
+      "right": [
+        0.0469,
+        0.0,
+        -0.9989
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.2,
+      "banking": 0.0,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 0.0
+    },
+    {
+      "index": 1,
+      "position": [
+        -4.855,
+        9.0,
+        15.951
+      ],
+      "forward": [
+        -0.999,
+        0.0,
+        -0.0458
+      ],
+      "right": [
+        0.0458,
+        0.0,
+        -0.999
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.175,
+      "banking": 0.005,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 0.856
+    },
+    {
+      "index": 2,
+      "position": [
+        -5.807,
+        9.0,
+        15.917
+      ],
+      "forward": [
+        -0.9994,
+        0.0,
+        -0.0336
+      ],
+      "right": [
+        0.0336,
+        0.0,
+        -0.9994
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.15,
+      "banking": 0.01,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 1.809
+    },
+    {
+      "index": 3,
+      "position": [
+        -6.82,
+        9.0,
+        15.885
+      ],
+      "forward": [
+        -0.9992,
+        0.0,
+        -0.0389
+      ],
+      "right": [
+        0.0389,
+        0.0,
+        -0.9992
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.125,
+      "banking": 0.015,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 2.822
+    },
+    {
+      "index": 4,
+      "position": [
+        -7.856,
+        9.0,
+        15.838
+      ],
+      "forward": [
+        -0.9982,
+        0.0,
+        -0.06
+      ],
+      "right": [
+        0.06,
+        0.0,
+        -0.9982
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.1,
+      "banking": 0.02,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 3.86
+    },
+    {
+      "index": 5,
+      "position": [
+        -8.879,
+        9.0,
+        15.761
+      ],
+      "forward": [
+        -0.9951,
+        0.0,
+        -0.0989
+      ],
+      "right": [
+        0.0989,
+        0.0,
+        -0.9951
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.075,
+      "banking": 0.025,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 4.886
+    },
+    {
+      "index": 6,
+      "position": [
+        -9.852,
+        9.0,
+        15.639
+      ],
+      "forward": [
+        -0.9869,
+        0.0,
+        -0.1611
+      ],
+      "right": [
+        0.1611,
+        0.0,
+        -0.9869
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.05,
+      "banking": 0.03,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 5.866
+    },
+    {
+      "index": 7,
+      "position": [
+        -10.738,
+        9.0,
+        15.457
+      ],
+      "forward": [
+        -0.9663,
+        0.0,
+        -0.2575
+      ],
+      "right": [
+        0.2575,
+        0.0,
+        -0.9663
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.025,
+      "banking": 0.035,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 6.771
+    },
+    {
+      "index": 8,
+      "position": [
+        -11.5,
+        9.0,
+        15.2
+      ],
+      "forward": [
+        -0.918,
+        0.0854,
+        -0.3872
+      ],
+      "right": [
+        0.3886,
+        0.0,
+        -0.9214
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.0,
+      "banking": 0.04,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 7.575
+    },
+    {
+      "index": 9,
+      "position": [
+        -12.154,
+        9.132,
+        14.86
+      ],
+      "forward": [
+        -0.8346,
+        0.2206,
+        -0.5047
+      ],
+      "right": [
+        0.5174,
+        0.0,
+        -0.8557
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.95,
+      "banking": 0.035,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 8.324
+    },
+    {
+      "index": 10,
+      "position": [
+        -12.743,
+        9.329,
+        14.448
+      ],
+      "forward": [
+        -0.75,
+        0.2917,
+        -0.5936
+      ],
+      "right": [
+        0.6206,
+        0.0,
+        -0.7841
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.9,
+      "banking": 0.03,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 9.069
+    },
+    {
+      "index": 11,
+      "position": [
+        -13.268,
+        9.565,
+        13.978
+      ],
+      "forward": [
+        -0.6684,
+        0.3295,
+        -0.6668
+      ],
+      "right": [
+        0.7062,
+        0.0,
+        -0.708
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.85,
+      "banking": 0.025,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 9.812
+    },
+    {
+      "index": 12,
+      "position": [
+        -13.731,
+        9.816,
+        13.463
+      ],
+      "forward": [
+        -0.5945,
+        0.3362,
+        -0.7305
+      ],
+      "right": [
+        0.7756,
+        0.0,
+        -0.6312
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.02,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 10.549
+    },
+    {
+      "index": 13,
+      "position": [
+        -14.134,
+        10.055,
+        12.914
+      ],
+      "forward": [
+        -0.5283,
+        0.3122,
+        -0.7895
+      ],
+      "right": [
+        0.8311,
+        0.0,
+        -0.5561
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.75,
+      "banking": 0.015,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 11.271
+    },
+    {
+      "index": 14,
+      "position": [
+        -14.479,
+        10.257,
+        12.345
+      ],
+      "forward": [
+        -0.468,
+        0.2536,
+        -0.8466
+      ],
+      "right": [
+        0.8752,
+        0.0,
+        -0.4838
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.7,
+      "banking": 0.01,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 11.966
+    },
+    {
+      "index": 15,
+      "position": [
+        -14.767,
+        10.398,
+        11.77
+      ],
+      "forward": [
+        -0.4094,
+        0.1513,
+        -0.8997
+      ],
+      "right": [
+        0.9102,
+        0.0,
+        -0.4141
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.65,
+      "banking": 0.005,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 12.624
+    },
+    {
+      "index": 16,
+      "position": [
+        -15.0,
+        10.45,
+        11.2
+      ],
+      "forward": [
+        -0.3238,
+        0.0,
+        -0.9461
+      ],
+      "right": [
+        0.9461,
+        0.0,
+        -0.3238
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.6,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 13.242
+    },
+    {
+      "index": 17,
+      "position": [
+        -15.159,
+        10.398,
+        10.624
+      ],
+      "forward": [
+        -0.1925,
+        -0.1587,
+        -0.9684
+      ],
+      "right": [
+        0.9808,
+        0.0,
+        -0.195
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.625,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 13.842
+    },
+    {
+      "index": 18,
+      "position": [
+        -15.234,
+        10.257,
+        10.025
+      ],
+      "forward": [
+        -0.0639,
+        -0.2705,
+        -0.9606
+      ],
+      "right": [
+        0.9978,
+        0.0,
+        -0.0664
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.65,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 14.462
+    },
+    {
+      "index": 19,
+      "position": [
+        -15.24,
+        10.055,
+        9.407
+      ],
+      "forward": [
+        0.0301,
+        -0.3331,
+        -0.9424
+      ],
+      "right": [
+        0.9995,
+        0.0,
+        0.0319
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.675,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 15.112
+    },
+    {
+      "index": 20,
+      "position": [
+        -15.194,
+        9.816,
+        8.775
+      ],
+      "forward": [
+        0.0942,
+        -0.3575,
+        -0.9292
+      ],
+      "right": [
+        0.9949,
+        0.0,
+        0.1009
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.7,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 15.789
+    },
+    {
+      "index": 21,
+      "position": [
+        -15.111,
+        9.565,
+        8.134
+      ],
+      "forward": [
+        0.1344,
+        -0.3506,
+        -0.9268
+      ],
+      "right": [
+        0.9896,
+        0.0,
+        0.1435
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.725,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 16.483
+    },
+    {
+      "index": 22,
+      "position": [
+        -15.007,
+        9.329,
+        7.487
+      ],
+      "forward": [
+        0.1542,
+        -0.3141,
+        -0.9368
+      ],
+      "right": [
+        0.9867,
+        0.0,
+        0.1624
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.75,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 17.179
+    },
+    {
+      "index": 23,
+      "position": [
+        -14.898,
+        9.132,
+        6.841
+      ],
+      "forward": [
+        0.1539,
+        -0.2443,
+        -0.9574
+      ],
+      "right": [
+        0.9873,
+        0.0,
+        0.1587
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.775,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 17.863
+    },
+    {
+      "index": 24,
+      "position": [
+        -14.8,
+        9.0,
+        6.2
+      ],
+      "forward": [
+        0.1628,
+        -0.1008,
+        -0.9815
+      ],
+      "right": [
+        0.9865,
+        0.0,
+        0.1636
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 18.525
+    },
+    {
+      "index": 25,
+      "position": [
+        -14.685,
+        9.0,
+        5.56
+      ],
+      "forward": [
+        0.2069,
+        0.0,
+        -0.9784
+      ],
+      "right": [
+        0.9784,
+        0.0,
+        0.2069
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.775,
+      "banking": -0.0063,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 19.176
+    },
+    {
+      "index": 26,
+      "position": [
+        -14.528,
+        9.0,
+        4.914
+      ],
+      "forward": [
+        0.2549,
+        0.0,
+        -0.967
+      ],
+      "right": [
+        0.967,
+        0.0,
+        0.2549
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.75,
+      "banking": -0.0125,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 19.84
+    },
+    {
+      "index": 27,
+      "position": [
+        -14.344,
+        9.0,
+        4.265
+      ],
+      "forward": [
+        0.279,
+        0.0,
+        -0.9603
+      ],
+      "right": [
+        0.9603,
+        0.0,
+        0.279
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.725,
+      "banking": -0.0188,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 20.515
+    },
+    {
+      "index": 28,
+      "position": [
+        -14.15,
+        9.0,
+        3.612
+      ],
+      "forward": [
+        0.2808,
+        0.0,
+        -0.9598
+      ],
+      "right": [
+        0.9598,
+        0.0,
+        0.2808
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.7,
+      "banking": -0.025,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 21.196
+    },
+    {
+      "index": 29,
+      "position": [
+        -13.962,
+        9.0,
+        2.959
+      ],
+      "forward": [
+        0.2607,
+        0.0,
+        -0.9654
+      ],
+      "right": [
+        0.9654,
+        0.0,
+        0.2607
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.675,
+      "banking": -0.0312,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 21.876
+    },
+    {
+      "index": 30,
+      "position": [
+        -13.797,
+        9.0,
+        2.305
+      ],
+      "forward": [
+        0.2175,
+        0.0,
+        -0.976
+      ],
+      "right": [
+        0.976,
+        0.0,
+        0.2175
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.65,
+      "banking": -0.0375,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 22.55
+    },
+    {
+      "index": 31,
+      "position": [
+        -13.671,
+        9.0,
+        1.651
+      ],
+      "forward": [
+        0.1492,
+        0.0,
+        -0.9888
+      ],
+      "right": [
+        0.9888,
+        0.0,
+        0.1492
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.625,
+      "banking": -0.0438,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 23.216
+    },
+    {
+      "index": 32,
+      "position": [
+        -13.6,
+        9.0,
+        1.0
+      ],
+      "forward": [
+        0.0561,
+        0.0,
+        -0.9984
+      ],
+      "right": [
+        0.9984,
+        0.0,
+        0.0561
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.6,
+      "banking": -0.05,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 23.871
+    },
+    {
+      "index": 33,
+      "position": [
+        -13.598,
+        9.0,
+        0.354
+      ],
+      "forward": [
+        -0.0419,
+        0.0,
+        -0.9991
+      ],
+      "right": [
+        0.9991,
+        0.0,
+        -0.0419
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.6,
+      "banking": -0.0388,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 24.517
+    },
+    {
+      "index": 34,
+      "position": [
+        -13.654,
+        9.0,
+        -0.286
+      ],
+      "forward": [
+        -0.1185,
+        0.0,
+        -0.993
+      ],
+      "right": [
+        0.993,
+        0.0,
+        -0.1185
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.6,
+      "banking": -0.0275,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 25.159
+    },
+    {
+      "index": 35,
+      "position": [
+        -13.75,
+        9.0,
+        -0.924
+      ],
+      "forward": [
+        -0.166,
+        0.0,
+        -0.9861
+      ],
+      "right": [
+        0.9861,
+        0.0,
+        -0.166
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.6,
+      "banking": -0.0163,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 25.804
+    },
+    {
+      "index": 36,
+      "position": [
+        -13.869,
+        9.0,
+        -1.562
+      ],
+      "forward": [
+        -0.1845,
+        0.0,
+        -0.9828
+      ],
+      "right": [
+        0.9828,
+        0.0,
+        -0.1845
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.6,
+      "banking": -0.005,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 26.454
+    },
+    {
+      "index": 37,
+      "position": [
+        -13.991,
+        9.0,
+        -2.206
+      ],
+      "forward": [
+        -0.1751,
+        0.0,
+        -0.9845
+      ],
+      "right": [
+        0.9845,
+        0.0,
+        -0.1751
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.6,
+      "banking": 0.0062,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 27.109
+    },
+    {
+      "index": 38,
+      "position": [
+        -14.099,
+        9.0,
+        -2.858
+      ],
+      "forward": [
+        -0.1384,
+        0.0,
+        -0.9904
+      ],
+      "right": [
+        0.9904,
+        0.0,
+        -0.1384
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.6,
+      "banking": 0.0175,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 27.77
+    },
+    {
+      "index": 39,
+      "position": [
+        -14.175,
+        9.0,
+        -3.521
+      ],
+      "forward": [
+        -0.0749,
+        0.0,
+        -0.9972
+      ],
+      "right": [
+        0.9972,
+        0.0,
+        -0.0749
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.6,
+      "banking": 0.0287,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 28.438
+    },
+    {
+      "index": 40,
+      "position": [
+        -14.2,
+        9.0,
+        -4.2
+      ],
+      "forward": [
+        0.0021,
+        0.0165,
+        -0.9999
+      ],
+      "right": [
+        1.0,
+        0.0,
+        0.0021
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.6,
+      "banking": 0.04,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 29.117
+    },
+    {
+      "index": 41,
+      "position": [
+        -14.172,
+        9.023,
+        -4.896
+      ],
+      "forward": [
+        0.0659,
+        0.0401,
+        -0.997
+      ],
+      "right": [
+        0.9978,
+        0.0,
+        0.0659
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.55,
+      "banking": 0.035,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 29.814
+    },
+    {
+      "index": 42,
+      "position": [
+        -14.107,
+        9.057,
+        -5.608
+      ],
+      "forward": [
+        0.1086,
+        0.0517,
+        -0.9927
+      ],
+      "right": [
+        0.9941,
+        0.0,
+        0.1087
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.5,
+      "banking": 0.03,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 30.529
+    },
+    {
+      "index": 43,
+      "position": [
+        -14.015,
+        9.097,
+        -6.331
+      ],
+      "forward": [
+        0.1365,
+        0.0571,
+        -0.989
+      ],
+      "right": [
+        0.9906,
+        0.0,
+        0.1367
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.45,
+      "banking": 0.025,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 31.259
+    },
+    {
+      "index": 44,
+      "position": [
+        -13.906,
+        9.141,
+        -7.062
+      ],
+      "forward": [
+        0.1512,
+        0.0568,
+        -0.9869
+      ],
+      "right": [
+        0.9885,
+        0.0,
+        0.1514
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.4,
+      "banking": 0.02,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 32.0
+    },
+    {
+      "index": 45,
+      "position": [
+        -13.79,
+        9.182,
+        -7.799
+      ],
+      "forward": [
+        0.1533,
+        0.051,
+        -0.9869
+      ],
+      "right": [
+        0.9881,
+        0.0,
+        0.1535
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.35,
+      "banking": 0.015,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 32.746
+    },
+    {
+      "index": 46,
+      "position": [
+        -13.677,
+        9.217,
+        -8.536
+      ],
+      "forward": [
+        0.1431,
+        0.0397,
+        -0.9889
+      ],
+      "right": [
+        0.9897,
+        0.0,
+        0.1432
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.3,
+      "banking": 0.01,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 33.493
+    },
+    {
+      "index": 47,
+      "position": [
+        -13.577,
+        9.241,
+        -9.271
+      ],
+      "forward": [
+        0.1202,
+        0.0225,
+        -0.9925
+      ],
+      "right": [
+        0.9927,
+        0.0,
+        0.1202
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.25,
+      "banking": 0.005,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 34.235
+    },
+    {
+      "index": 48,
+      "position": [
+        -13.5,
+        9.25,
+        -10.0
+      ],
+      "forward": [
+        0.0748,
+        -0.001,
+        -0.9972
+      ],
+      "right": [
+        0.9972,
+        0.0,
+        0.0748
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.2,
+      "banking": 0.0,
+      "surfaceType": "sink_bridge",
+      "distanceFromStart": 34.969
+    },
+    {
+      "index": 49,
+      "position": [
+        -13.467,
+        9.239,
+        -10.745
+      ],
+      "forward": [
+        0.0154,
+        -0.0252,
+        -0.9996
+      ],
+      "right": [
+        0.9999,
+        0.0,
+        0.0154
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.275,
+      "banking": 0.0075,
+      "surfaceType": "sink_bridge",
+      "distanceFromStart": 35.715
+    },
+    {
+      "index": 50,
+      "position": [
+        -13.477,
+        9.212,
+        -11.52
+      ],
+      "forward": [
+        -0.0262,
+        -0.0431,
+        -0.9987
+      ],
+      "right": [
+        0.9997,
+        0.0,
+        -0.0263
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.35,
+      "banking": 0.015,
+      "surfaceType": "sink_bridge",
+      "distanceFromStart": 36.49
+    },
+    {
+      "index": 51,
+      "position": [
+        -13.508,
+        9.172,
+        -12.307
+      ],
+      "forward": [
+        -0.0388,
+        -0.0539,
+        -0.9978
+      ],
+      "right": [
+        0.9992,
+        0.0,
+        -0.0388
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.425,
+      "banking": 0.0225,
+      "surfaceType": "sink_bridge",
+      "distanceFromStart": 37.278
+    },
+    {
+      "index": 52,
+      "position": [
+        -13.537,
+        9.127,
+        -13.088
+      ],
+      "forward": [
+        -0.0236,
+        -0.059,
+        -0.998
+      ],
+      "right": [
+        0.9997,
+        0.0,
+        -0.0236
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.5,
+      "banking": 0.03,
+      "surfaceType": "sink_bridge",
+      "distanceFromStart": 38.061
+    },
+    {
+      "index": 53,
+      "position": [
+        -13.544,
+        9.081,
+        -13.845
+      ],
+      "forward": [
+        0.0222,
+        -0.0581,
+        -0.9981
+      ],
+      "right": [
+        0.9998,
+        0.0,
+        0.0223
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.575,
+      "banking": 0.0375,
+      "surfaceType": "sink_bridge",
+      "distanceFromStart": 38.82
+    },
+    {
+      "index": 54,
+      "position": [
+        -13.505,
+        9.041,
+        -14.561
+      ],
+      "forward": [
+        0.1058,
+        -0.0499,
+        -0.9931
+      ],
+      "right": [
+        0.9944,
+        0.0,
+        0.106
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.65,
+      "banking": 0.045,
+      "surfaceType": "sink_bridge",
+      "distanceFromStart": 39.538
+    },
+    {
+      "index": 55,
+      "position": [
+        -13.398,
+        9.012,
+        -15.219
+      ],
+      "forward": [
+        0.2387,
+        -0.0323,
+        -0.9706
+      ],
+      "right": [
+        0.9711,
+        0.0,
+        0.2388
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.725,
+      "banking": 0.0525,
+      "surfaceType": "sink_bridge",
+      "distanceFromStart": 40.205
+    },
+    {
+      "index": 56,
+      "position": [
+        -13.2,
+        9.0,
+        -15.8
+      ],
+      "forward": [
+        0.3985,
+        -0.0035,
+        -0.9172
+      ],
+      "right": [
+        0.9172,
+        0.0,
+        0.3985
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.06,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 40.819
+    },
+    {
+      "index": 57,
+      "position": [
+        -12.923,
+        9.008,
+        -16.311
+      ],
+      "forward": [
+        0.5305,
+        0.0282,
+        -0.8472
+      ],
+      "right": [
+        0.8475,
+        0.0,
+        0.5307
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0575,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 41.401
+    },
+    {
+      "index": 58,
+      "position": [
+        -12.591,
+        9.032,
+        -16.772
+      ],
+      "forward": [
+        0.6336,
+        0.0525,
+        -0.7719
+      ],
+      "right": [
+        0.773,
+        0.0,
+        0.6344
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.055,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 41.969
+    },
+    {
+      "index": 59,
+      "position": [
+        -12.207,
+        9.067,
+        -17.184
+      ],
+      "forward": [
+        0.7249,
+        0.0668,
+        -0.6856
+      ],
+      "right": [
+        0.6871,
+        0.0,
+        0.7265
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0525,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 42.534
+    },
+    {
+      "index": 60,
+      "position": [
+        -11.769,
+        9.108,
+        -17.55
+      ],
+      "forward": [
+        0.8012,
+        0.0705,
+        -0.5943
+      ],
+      "right": [
+        0.5958,
+        0.0,
+        0.8032
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.05,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 43.106
+    },
+    {
+      "index": 61,
+      "position": [
+        -11.279,
+        9.149,
+        -17.872
+      ],
+      "forward": [
+        0.8616,
+        0.0641,
+        -0.5035
+      ],
+      "right": [
+        0.5046,
+        0.0,
+        0.8634
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0475,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 43.694
+    },
+    {
+      "index": 62,
+      "position": [
+        -10.737,
+        9.185,
+        -18.153
+      ],
+      "forward": [
+        0.9072,
+        0.0489,
+        -0.4178
+      ],
+      "right": [
+        0.4183,
+        0.0,
+        0.9083
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.045,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 44.305
+    },
+    {
+      "index": 63,
+      "position": [
+        -10.144,
+        9.21,
+        -18.395
+      ],
+      "forward": [
+        0.9401,
+        0.0267,
+        -0.3397
+      ],
+      "right": [
+        0.3399,
+        0.0,
+        0.9405
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0425,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 44.946
+    },
+    {
+      "index": 64,
+      "position": [
+        -9.5,
+        9.22,
+        -18.6
+      ],
+      "forward": [
+        0.9667,
+        0.0013,
+        -0.256
+      ],
+      "right": [
+        0.256,
+        0.0,
+        0.9667
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.04,
+      "surfaceType": "bacon_strip",
+      "distanceFromStart": 45.622
+    },
+    {
+      "index": 65,
+      "position": [
+        -8.79,
+        9.212,
+        -18.753
+      ],
+      "forward": [
+        0.9864,
+        -0.0193,
+        -0.163
+      ],
+      "right": [
+        0.163,
+        0.0,
+        0.9866
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.825,
+      "banking": 0.0312,
+      "surfaceType": "bacon_strip",
+      "distanceFromStart": 46.349
+    },
+    {
+      "index": 66,
+      "position": [
+        -8.005,
+        9.191,
+        -18.847
+      ],
+      "forward": [
+        0.9959,
+        -0.0318,
+        -0.0845
+      ],
+      "right": [
+        0.0846,
+        0.0,
+        0.9964
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.85,
+      "banking": 0.0225,
+      "surfaceType": "bacon_strip",
+      "distanceFromStart": 47.139
+    },
+    {
+      "index": 67,
+      "position": [
+        -7.161,
+        9.16,
+        -18.892
+      ],
+      "forward": [
+        0.9988,
+        -0.0386,
+        -0.0305
+      ],
+      "right": [
+        0.0306,
+        0.0,
+        0.9995
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.875,
+      "banking": 0.0137,
+      "surfaceType": "bacon_strip",
+      "distanceFromStart": 47.985
+    },
+    {
+      "index": 68,
+      "position": [
+        -6.269,
+        9.124,
+        -18.9
+      ],
+      "forward": [
+        0.9992,
+        -0.0409,
+        0.0047
+      ],
+      "right": [
+        -0.0047,
+        0.0,
+        1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.9,
+      "banking": 0.005,
+      "surfaceType": "bacon_strip",
+      "distanceFromStart": 48.878
+    },
+    {
+      "index": 69,
+      "position": [
+        -5.343,
+        9.086,
+        -18.883
+      ],
+      "forward": [
+        0.9989,
+        -0.0395,
+        0.025
+      ],
+      "right": [
+        -0.0251,
+        0.0,
+        0.9997
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.925,
+      "banking": -0.0038,
+      "surfaceType": "bacon_strip",
+      "distanceFromStart": 49.804
+    },
+    {
+      "index": 70,
+      "position": [
+        -4.398,
+        9.05,
+        -18.853
+      ],
+      "forward": [
+        0.9989,
+        -0.0346,
+        0.0325
+      ],
+      "right": [
+        -0.0325,
+        0.0,
+        0.9995
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.95,
+      "banking": -0.0125,
+      "surfaceType": "bacon_strip",
+      "distanceFromStart": 50.751
+    },
+    {
+      "index": 71,
+      "position": [
+        -3.445,
+        9.02,
+        -18.822
+      ],
+      "forward": [
+        0.9993,
+        -0.0262,
+        0.028
+      ],
+      "right": [
+        -0.028,
+        0.0,
+        0.9996
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.975,
+      "banking": -0.0213,
+      "surfaceType": "bacon_strip",
+      "distanceFromStart": 51.704
+    },
+    {
+      "index": 72,
+      "position": [
+        -2.5,
+        9.0,
+        -18.8
+      ],
+      "forward": [
+        0.9998,
+        -0.0105,
+        0.019
+      ],
+      "right": [
+        -0.019,
+        0.0,
+        0.9998
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.0,
+      "banking": -0.03,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 52.65
+    },
+    {
+      "index": 73,
+      "position": [
+        -1.548,
+        9.0,
+        -18.785
+      ],
+      "forward": [
+        0.9998,
+        0.0,
+        0.0178
+      ],
+      "right": [
+        -0.0178,
+        0.0,
+        0.9998
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.025,
+      "banking": -0.0262,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 53.602
+    },
+    {
+      "index": 74,
+      "position": [
+        -0.57,
+        9.0,
+        -18.766
+      ],
+      "forward": [
+        0.9997,
+        0.0,
+        0.0241
+      ],
+      "right": [
+        -0.0241,
+        0.0,
+        0.9997
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.05,
+      "banking": -0.0225,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 54.58
+    },
+    {
+      "index": 75,
+      "position": [
+        0.427,
+        9.0,
+        -18.738
+      ],
+      "forward": [
+        0.9995,
+        0.0,
+        0.0327
+      ],
+      "right": [
+        -0.0327,
+        0.0,
+        0.9995
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.075,
+      "banking": -0.0187,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 55.578
+    },
+    {
+      "index": 76,
+      "position": [
+        1.438,
+        9.0,
+        -18.7
+      ],
+      "forward": [
+        0.9991,
+        0.0,
+        0.0435
+      ],
+      "right": [
+        -0.0435,
+        0.0,
+        0.9991
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.1,
+      "banking": -0.015,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 56.589
+    },
+    {
+      "index": 77,
+      "position": [
+        2.456,
+        9.0,
+        -18.65
+      ],
+      "forward": [
+        0.9984,
+        0.0,
+        0.0566
+      ],
+      "right": [
+        -0.0566,
+        0.0,
+        0.9984
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.125,
+      "banking": -0.0112,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 57.609
+    },
+    {
+      "index": 78,
+      "position": [
+        3.477,
+        9.0,
+        -18.584
+      ],
+      "forward": [
+        0.9974,
+        0.0,
+        0.0723
+      ],
+      "right": [
+        -0.0723,
+        0.0,
+        0.9974
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.15,
+      "banking": -0.0075,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 58.631
+    },
+    {
+      "index": 79,
+      "position": [
+        4.493,
+        9.0,
+        -18.502
+      ],
+      "forward": [
+        0.9959,
+        0.0,
+        0.0908
+      ],
+      "right": [
+        -0.0908,
+        0.0,
+        0.9959
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.175,
+      "banking": -0.0037,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 59.651
+    },
+    {
+      "index": 80,
+      "position": [
+        5.5,
+        9.0,
+        -18.4
+      ],
+      "forward": [
+        0.9952,
+        0.0007,
+        0.0977
+      ],
+      "right": [
+        -0.0977,
+        0.0,
+        0.9952
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.2,
+      "banking": 0.0,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 60.663
+    },
+    {
+      "index": 81,
+      "position": [
+        6.541,
+        9.001,
+        -18.301
+      ],
+      "forward": [
+        0.9963,
+        0.0022,
+        0.0855
+      ],
+      "right": [
+        -0.0855,
+        0.0,
+        0.9963
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.175,
+      "banking": 0.01,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 61.709
+    },
+    {
+      "index": 82,
+      "position": [
+        7.641,
+        9.005,
+        -18.216
+      ],
+      "forward": [
+        0.997,
+        0.0033,
+        0.0774
+      ],
+      "right": [
+        -0.0774,
+        0.0,
+        0.997
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.15,
+      "banking": 0.02,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 62.812
+    },
+    {
+      "index": 83,
+      "position": [
+        8.764,
+        9.009,
+        -18.128
+      ],
+      "forward": [
+        0.9961,
+        0.0035,
+        0.0881
+      ],
+      "right": [
+        -0.0881,
+        0.0,
+        0.9961
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.125,
+      "banking": 0.03,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 63.938
+    },
+    {
+      "index": 84,
+      "position": [
+        9.875,
+        9.012,
+        -18.019
+      ],
+      "forward": [
+        0.993,
+        0.0026,
+        0.1183
+      ],
+      "right": [
+        -0.1183,
+        0.0,
+        0.993
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.1,
+      "banking": 0.04,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 65.055
+    },
+    {
+      "index": 85,
+      "position": [
+        10.94,
+        9.015,
+        -17.869
+      ],
+      "forward": [
+        0.9851,
+        0.0008,
+        0.1718
+      ],
+      "right": [
+        -0.1718,
+        0.0,
+        0.9851
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.075,
+      "banking": 0.05,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 66.13
+    },
+    {
+      "index": 86,
+      "position": [
+        11.922,
+        9.014,
+        -17.662
+      ],
+      "forward": [
+        0.9664,
+        -0.0026,
+        0.2569
+      ],
+      "right": [
+        -0.2569,
+        0.0,
+        0.9664
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.05,
+      "banking": 0.06,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 67.134
+    },
+    {
+      "index": 87,
+      "position": [
+        12.787,
+        9.01,
+        -17.378
+      ],
+      "forward": [
+        0.9222,
+        -0.0082,
+        0.3867
+      ],
+      "right": [
+        -0.3867,
+        0.0,
+        0.9222
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.025,
+      "banking": 0.07,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 68.045
+    },
+    {
+      "index": 88,
+      "position": [
+        13.5,
+        9.0,
+        -17.0
+      ],
+      "forward": [
+        0.8291,
+        0.002,
+        0.5591
+      ],
+      "right": [
+        -0.5591,
+        0.0,
+        0.8291
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.0,
+      "banking": 0.08,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 68.852
+    },
+    {
+      "index": 89,
+      "position": [
+        14.051,
+        9.013,
+        -16.526
+      ],
+      "forward": [
+        0.6852,
+        0.0426,
+        0.7271
+      ],
+      "right": [
+        -0.7278,
+        0.0,
+        0.6858
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.975,
+      "banking": 0.07,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 69.579
+    },
+    {
+      "index": 90,
+      "position": [
+        14.469,
+        9.06,
+        -15.972
+      ],
+      "forward": [
+        0.5233,
+        0.0772,
+        0.8486
+      ],
+      "right": [
+        -0.8512,
+        0.0,
+        0.5249
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.95,
+      "banking": 0.06,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 70.274
+    },
+    {
+      "index": 91,
+      "position": [
+        14.777,
+        9.12,
+        -15.348
+      ],
+      "forward": [
+        0.3748,
+        0.0766,
+        0.9239
+      ],
+      "right": [
+        -0.9267,
+        0.0,
+        0.3759
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.925,
+      "banking": 0.05,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 70.973
+    },
+    {
+      "index": 92,
+      "position": [
+        15.0,
+        9.169,
+        -14.662
+      ],
+      "forward": [
+        0.2598,
+        0.0436,
+        0.9647
+      ],
+      "right": [
+        -0.9656,
+        0.0,
+        0.26
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.9,
+      "banking": 0.04,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 71.695
+    },
+    {
+      "index": 93,
+      "position": [
+        15.16,
+        9.184,
+        -13.926
+      ],
+      "forward": [
+        0.1824,
+        -0.0167,
+        0.9831
+      ],
+      "right": [
+        -0.9832,
+        0.0,
+        0.1824
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.875,
+      "banking": 0.03,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 72.449
+    },
+    {
+      "index": 94,
+      "position": [
+        15.281,
+        9.143,
+        -13.147
+      ],
+      "forward": [
+        0.1403,
+        -0.1,
+        0.985
+      ],
+      "right": [
+        -0.99,
+        0.0,
+        0.141
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.85,
+      "banking": 0.02,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 73.239
+    },
+    {
+      "index": 95,
+      "position": [
+        15.387,
+        9.023,
+        -12.335
+      ],
+      "forward": [
+        0.129,
+        -0.2022,
+        0.9708
+      ],
+      "right": [
+        -0.9913,
+        0.0,
+        0.1317
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.825,
+      "banking": 0.01,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 74.066
+    },
+    {
+      "index": 96,
+      "position": [
+        15.5,
+        8.8,
+        -11.5
+      ],
+      "forward": [
+        0.1152,
+        -0.31,
+        0.9437
+      ],
+      "right": [
+        -0.9926,
+        0.0,
+        0.1212
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 74.938
+    },
+    {
+      "index": 97,
+      "position": [
+        15.596,
+        8.46,
+        -10.623
+      ],
+      "forward": [
+        0.071,
+        -0.3951,
+        0.9159
+      ],
+      "right": [
+        -0.997,
+        0.0,
+        0.0773
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 75.883
+    },
+    {
+      "index": 98,
+      "position": [
+        15.641,
+        8.018,
+        -9.688
+      ],
+      "forward": [
+        0.0237,
+        -0.4488,
+        0.8933
+      ],
+      "right": [
+        -0.9996,
+        0.0,
+        0.0265
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 76.919
+    },
+    {
+      "index": 99,
+      "position": [
+        15.646,
+        7.497,
+        -8.705
+      ],
+      "forward": [
+        -0.0068,
+        -0.4816,
+        0.8763
+      ],
+      "right": [
+        -1.0,
+        0.0,
+        -0.0078
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 78.031
+    },
+    {
+      "index": 100,
+      "position": [
+        15.625,
+        6.919,
+        -7.688
+      ],
+      "forward": [
+        -0.0246,
+        -0.5001,
+        0.8656
+      ],
+      "right": [
+        -0.9996,
+        0.0,
+        -0.0285
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 79.201
+    },
+    {
+      "index": 101,
+      "position": [
+        15.588,
+        6.307,
+        -6.646
+      ],
+      "forward": [
+        -0.0321,
+        -0.5074,
+        0.8611
+      ],
+      "right": [
+        -0.9993,
+        0.0,
+        -0.0373
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 80.409
+    },
+    {
+      "index": 102,
+      "position": [
+        15.547,
+        5.685,
+        -5.594
+      ],
+      "forward": [
+        -0.0304,
+        -0.5049,
+        0.8627
+      ],
+      "right": [
+        -0.9994,
+        0.0,
+        -0.0352
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 81.633
+    },
+    {
+      "index": 103,
+      "position": [
+        15.514,
+        5.075,
+        -4.541
+      ],
+      "forward": [
+        -0.0195,
+        -0.4925,
+        0.8701
+      ],
+      "right": [
+        -0.9997,
+        0.0,
+        -0.0224
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 82.85
+    },
+    {
+      "index": 104,
+      "position": [
+        15.5,
+        4.5,
+        -3.5
+      ],
+      "forward": [
+        -0.0029,
+        -0.4892,
+        0.8722
+      ],
+      "right": [
+        -1.0,
+        0.0,
+        -0.0033
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 84.039
+    },
+    {
+      "index": 105,
+      "position": [
+        15.507,
+        3.916,
+        -2.475
+      ],
+      "forward": [
+        0.0098,
+        -0.5116,
+        0.8592
+      ],
+      "right": [
+        -0.9999,
+        0.0,
+        0.0115
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.925,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 85.219
+    },
+    {
+      "index": 106,
+      "position": [
+        15.523,
+        3.284,
+        -1.457
+      ],
+      "forward": [
+        0.0154,
+        -0.5338,
+        0.8454
+      ],
+      "right": [
+        -0.9998,
+        0.0,
+        0.0182
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.05,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 86.418
+    },
+    {
+      "index": 107,
+      "position": [
+        15.544,
+        2.629,
+        -0.437
+      ],
+      "forward": [
+        0.0161,
+        -0.536,
+        0.844
+      ],
+      "right": [
+        -0.9998,
+        0.0,
+        0.0191
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.175,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 87.629
+    },
+    {
+      "index": 108,
+      "position": [
+        15.562,
+        1.981,
+        0.594
+      ],
+      "forward": [
+        0.012,
+        -0.5187,
+        0.8549
+      ],
+      "right": [
+        -0.9999,
+        0.0,
+        0.0141
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.3,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 88.847
+    },
+    {
+      "index": 109,
+      "position": [
+        15.573,
+        1.367,
+        1.644
+      ],
+      "forward": [
+        0.0032,
+        -0.481,
+        0.8767
+      ],
+      "right": [
+        -1.0,
+        0.0,
+        0.0037
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.425,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 90.064
+    },
+    {
+      "index": 110,
+      "position": [
+        15.57,
+        0.813,
+        2.723
+      ],
+      "forward": [
+        -0.0105,
+        -0.4209,
+        0.9071
+      ],
+      "right": [
+        -0.9999,
+        0.0,
+        -0.0115
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.55,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 91.276
+    },
+    {
+      "index": 111,
+      "position": [
+        15.548,
+        0.348,
+        3.838
+      ],
+      "forward": [
+        -0.0291,
+        -0.3362,
+        0.9413
+      ],
+      "right": [
+        -0.9995,
+        0.0,
+        -0.0309
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.675,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 92.485
+    },
+    {
+      "index": 112,
+      "position": [
+        15.5,
+        0.0,
+        5.0
+      ],
+      "forward": [
+        -0.0404,
+        -0.1442,
+        0.9887
+      ],
+      "right": [
+        -0.9992,
+        0.0,
+        -0.0409
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.8,
+      "banking": 0.0,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 93.699
+    },
+    {
+      "index": 113,
+      "position": [
+        15.45,
+        0.0,
+        6.227
+      ],
+      "forward": [
+        -0.0341,
+        0.0,
+        0.9994
+      ],
+      "right": [
+        -0.9994,
+        0.0,
+        -0.0341
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.85,
+      "banking": 0.0075,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 94.927
+    },
+    {
+      "index": 114,
+      "position": [
+        15.414,
+        0.0,
+        7.519
+      ],
+      "forward": [
+        -0.029,
+        0.0,
+        0.9996
+      ],
+      "right": [
+        -0.9996,
+        0.0,
+        -0.029
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.9,
+      "banking": 0.015,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 96.22
+    },
+    {
+      "index": 115,
+      "position": [
+        15.374,
+        0.0,
+        8.857
+      ],
+      "forward": [
+        -0.0376,
+        0.0,
+        0.9993
+      ],
+      "right": [
+        -0.9993,
+        0.0,
+        -0.0376
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.95,
+      "banking": 0.0225,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 97.558
+    },
+    {
+      "index": 116,
+      "position": [
+        15.312,
+        0.0,
+        10.219
+      ],
+      "forward": [
+        -0.0593,
+        0.0,
+        0.9982
+      ],
+      "right": [
+        -0.9982,
+        0.0,
+        -0.0593
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.0,
+      "banking": 0.03,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 98.921
+    },
+    {
+      "index": 117,
+      "position": [
+        15.212,
+        0.0,
+        11.585
+      ],
+      "forward": [
+        -0.0945,
+        0.0,
+        0.9955
+      ],
+      "right": [
+        -0.9955,
+        0.0,
+        -0.0945
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.05,
+      "banking": 0.0375,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 100.291
+    },
+    {
+      "index": 118,
+      "position": [
+        15.055,
+        0.0,
+        12.934
+      ],
+      "forward": [
+        -0.1445,
+        0.0,
+        0.9895
+      ],
+      "right": [
+        -0.9895,
+        0.0,
+        -0.1445
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.1,
+      "banking": 0.045,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 101.649
+    },
+    {
+      "index": 119,
+      "position": [
+        14.823,
+        0.0,
+        14.246
+      ],
+      "forward": [
+        -0.2113,
+        0.0,
+        0.9774
+      ],
+      "right": [
+        -0.9774,
+        0.0,
+        -0.2113
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.15,
+      "banking": 0.0525,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 102.981
+    },
+    {
+      "index": 120,
+      "position": [
+        14.5,
+        0.0,
+        15.5
+      ],
+      "forward": [
+        -0.2839,
+        0.0,
+        0.9588
+      ],
+      "right": [
+        -0.9588,
+        0.0,
+        -0.2839
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.2,
+      "banking": 0.06,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 104.277
+    },
+    {
+      "index": 121,
+      "position": [
+        14.08,
+        0.0,
+        16.755
+      ],
+      "forward": [
+        -0.3394,
+        0.0,
+        0.9406
+      ],
+      "right": [
+        -0.9406,
+        0.0,
+        -0.3394
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.175,
+      "banking": 0.0625,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 105.6
+    },
+    {
+      "index": 122,
+      "position": [
+        13.578,
+        0.0,
+        18.055
+      ],
+      "forward": [
+        -0.3814,
+        0.0,
+        0.9244
+      ],
+      "right": [
+        -0.9244,
+        0.0,
+        -0.3814
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.15,
+      "banking": 0.065,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 106.993
+    },
+    {
+      "index": 123,
+      "position": [
+        13.006,
+        0.0,
+        19.358
+      ],
+      "forward": [
+        -0.4239,
+        0.0,
+        0.9057
+      ],
+      "right": [
+        -0.9057,
+        0.0,
+        -0.4239
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.125,
+      "banking": 0.0675,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 108.417
+    },
+    {
+      "index": 124,
+      "position": [
+        12.375,
+        0.0,
+        20.625
+      ],
+      "forward": [
+        -0.4704,
+        0.0,
+        0.8825
+      ],
+      "right": [
+        -0.8825,
+        0.0,
+        -0.4704
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.1,
+      "banking": 0.07,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 109.832
+    },
+    {
+      "index": 125,
+      "position": [
+        11.697,
+        0.0,
+        21.814
+      ],
+      "forward": [
+        -0.5244,
+        0.0,
+        0.8515
+      ],
+      "right": [
+        -0.8515,
+        0.0,
+        -0.5244
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.075,
+      "banking": 0.0725,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 111.2
+    },
+    {
+      "index": 126,
+      "position": [
+        10.984,
+        0.0,
+        22.883
+      ],
+      "forward": [
+        -0.5909,
+        0.0,
+        0.8067
+      ],
+      "right": [
+        -0.8067,
+        0.0,
+        -0.5909
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.05,
+      "banking": 0.075,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 112.485
+    },
+    {
+      "index": 127,
+      "position": [
+        10.248,
+        0.0,
+        23.792
+      ],
+      "forward": [
+        -0.6762,
+        0.0,
+        0.7367
+      ],
+      "right": [
+        -0.7367,
+        0.0,
+        -0.6762
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.025,
+      "banking": 0.0775,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 113.655
+    },
+    {
+      "index": 128,
+      "position": [
+        9.5,
+        0.0,
+        24.5
+      ],
+      "forward": [
+        -0.7922,
+        0.0,
+        0.6103
+      ],
+      "right": [
+        -0.6103,
+        0.0,
+        -0.7922
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 6.0,
+      "banking": 0.08,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 114.685
+    },
+    {
+      "index": 129,
+      "position": [
+        8.673,
+        0.0,
+        25.006
+      ],
+      "forward": [
+        -0.9024,
+        0.0,
+        0.4309
+      ],
+      "right": [
+        -0.4309,
+        0.0,
+        -0.9024
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.85,
+      "banking": 0.07,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 115.655
+    },
+    {
+      "index": 130,
+      "position": [
+        7.727,
+        0.0,
+        25.347
+      ],
+      "forward": [
+        -0.9644,
+        0.0,
+        0.2646
+      ],
+      "right": [
+        -0.2646,
+        0.0,
+        -0.9644
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.7,
+      "banking": 0.06,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 116.661
+    },
+    {
+      "index": 131,
+      "position": [
+        6.714,
+        0.0,
+        25.543
+      ],
+      "forward": [
+        -0.9916,
+        0.0,
+        0.1292
+      ],
+      "right": [
+        -0.1292,
+        0.0,
+        -0.9916
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.55,
+      "banking": 0.05,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 117.692
+    },
+    {
+      "index": 132,
+      "position": [
+        5.688,
+        0.0,
+        25.613
+      ],
+      "forward": [
+        -0.9999,
+        0.0,
+        0.0155
+      ],
+      "right": [
+        -0.0155,
+        0.0,
+        -0.9999
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.4,
+      "banking": 0.04,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 118.721
+    },
+    {
+      "index": 133,
+      "position": [
+        4.7,
+        0.0,
+        25.574
+      ],
+      "forward": [
+        -0.9962,
+        0.0,
+        -0.0876
+      ],
+      "right": [
+        0.0876,
+        0.0,
+        -0.9962
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.25,
+      "banking": 0.03,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 119.709
+    },
+    {
+      "index": 134,
+      "position": [
+        3.805,
+        0.0,
+        25.447
+      ],
+      "forward": [
+        -0.9811,
+        0.0,
+        -0.1937
+      ],
+      "right": [
+        0.1937,
+        0.0,
+        -0.9811
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.1,
+      "banking": 0.02,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 120.613
+    },
+    {
+      "index": 135,
+      "position": [
+        3.054,
+        0.0,
+        25.249
+      ],
+      "forward": [
+        -0.9362,
+        0.1435,
+        -0.3207
+      ],
+      "right": [
+        0.324,
+        0.0,
+        -0.946
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.95,
+      "banking": 0.01,
+      "surfaceType": "floor_wood",
+      "distanceFromStart": 121.39
+    },
+    {
+      "index": 136,
+      "position": [
+        2.5,
+        0.2,
+        25.0
+      ],
+      "forward": [
+        -0.734,
+        0.458,
+        -0.5015
+      ],
+      "right": [
+        0.5641,
+        0.0,
+        -0.8257
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 122.029
+    },
+    {
+      "index": 137,
+      "position": [
+        2.174,
+        0.549,
+        24.648
+      ],
+      "forward": [
+        -0.3677,
+        0.6409,
+        -0.6738
+      ],
+      "right": [
+        0.8778,
+        0.0,
+        -0.479
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 122.623
+    },
+    {
+      "index": 138,
+      "position": [
+        2.038,
+        1.005,
+        24.154
+      ],
+      "forward": [
+        -0.0873,
+        0.6693,
+        -0.7378
+      ],
+      "right": [
+        0.9931,
+        0.0,
+        -0.1174
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 123.308
+    },
+    {
+      "index": 139,
+      "position": [
+        2.044,
+        1.542,
+        23.553
+      ],
+      "forward": [
+        0.0617,
+        0.6636,
+        -0.7455
+      ],
+      "right": [
+        0.9966,
+        0.0,
+        0.0825
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 124.115
+    },
+    {
+      "index": 140,
+      "position": [
+        2.144,
+        2.138,
+        22.881
+      ],
+      "forward": [
+        0.1308,
+        0.6579,
+        -0.7417
+      ],
+      "right": [
+        0.9848,
+        0.0,
+        0.1737
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 125.018
+    },
+    {
+      "index": 141,
+      "position": [
+        2.288,
+        2.765,
+        22.174
+      ],
+      "forward": [
+        0.1479,
+        0.6593,
+        -0.7372
+      ],
+      "right": [
+        0.9805,
+        0.0,
+        0.1967
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 125.974
+    },
+    {
+      "index": 142,
+      "position": [
+        2.427,
+        3.402,
+        21.468
+      ],
+      "forward": [
+        0.1208,
+        0.6691,
+        -0.7333
+      ],
+      "right": [
+        0.9867,
+        0.0,
+        0.1626
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 126.935
+    },
+    {
+      "index": 143,
+      "position": [
+        2.514,
+        4.021,
+        20.798
+      ],
+      "forward": [
+        0.0416,
+        0.6863,
+        -0.7261
+      ],
+      "right": [
+        0.9984,
+        0.0,
+        0.0572
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 127.852
+    },
+    {
+      "index": 144,
+      "position": [
+        2.5,
+        4.6,
+        20.2
+      ],
+      "forward": [
+        -0.0535,
+        0.7051,
+        -0.7071
+      ],
+      "right": [
+        0.9971,
+        0.0,
+        -0.0755
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.8,
+      "banking": 0.0,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 128.684
+    },
+    {
+      "index": 145,
+      "position": [
+        2.426,
+        5.18,
+        19.636
+      ],
+      "forward": [
+        -0.0853,
+        0.7217,
+        -0.687
+      ],
+      "right": [
+        0.9924,
+        0.0,
+        -0.1232
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.825,
+      "banking": 0.005,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 129.497
+    },
+    {
+      "index": 146,
+      "position": [
+        2.358,
+        5.803,
+        19.055
+      ],
+      "forward": [
+        -0.0855,
+        0.7335,
+        -0.6743
+      ],
+      "right": [
+        0.9921,
+        0.0,
+        -0.1258
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.85,
+      "banking": 0.01,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 130.351
+    },
+    {
+      "index": 147,
+      "position": [
+        2.279,
+        6.443,
+        18.474
+      ],
+      "forward": [
+        -0.1063,
+        0.7398,
+        -0.6644
+      ],
+      "right": [
+        0.9874,
+        0.0,
+        -0.158
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.875,
+      "banking": 0.015,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 131.219
+    },
+    {
+      "index": 148,
+      "position": [
+        2.175,
+        7.075,
+        17.913
+      ],
+      "forward": [
+        -0.1499,
+        0.7403,
+        -0.6554
+      ],
+      "right": [
+        0.9748,
+        0.0,
+        -0.2229
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.9,
+      "banking": 0.02,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 132.071
+    },
+    {
+      "index": 149,
+      "position": [
+        2.03,
+        7.672,
+        17.387
+      ],
+      "forward": [
+        -0.2228,
+        0.7318,
+        -0.6441
+      ],
+      "right": [
+        0.9451,
+        0.0,
+        -0.3269
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.925,
+      "banking": 0.025,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 132.88
+    },
+    {
+      "index": 150,
+      "position": [
+        1.83,
+        8.209,
+        16.914
+      ],
+      "forward": [
+        -0.3371,
+        0.7053,
+        -0.6236
+      ],
+      "right": [
+        0.8797,
+        0.0,
+        -0.4755
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.95,
+      "banking": 0.03,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 133.622
+    },
+    {
+      "index": 151,
+      "position": [
+        1.558,
+        8.661,
+        16.513
+      ],
+      "forward": [
+        -0.5088,
+        0.6388,
+        -0.577
+      ],
+      "right": [
+        0.75,
+        0.0,
+        -0.6614
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 4.975,
+      "banking": 0.035,
+      "surfaceType": "ramp_wood",
+      "distanceFromStart": 134.285
+    },
+    {
+      "index": 152,
+      "position": [
+        1.2,
+        9.0,
+        16.2
+      ],
+      "forward": [
+        -0.7303,
+        0.4985,
+        -0.4671
+      ],
+      "right": [
+        0.5389,
+        0.0,
+        -0.8424
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.0,
+      "banking": 0.04,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 134.869
+    },
+    {
+      "index": 153,
+      "position": [
+        0.752,
+        9.21,
+        15.997
+      ],
+      "forward": [
+        -0.9134,
+        0.2908,
+        -0.2849
+      ],
+      "right": [
+        0.2977,
+        0.0,
+        -0.9547
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.025,
+      "banking": 0.035,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 135.403
+    },
+    {
+      "index": 154,
+      "position": [
+        0.228,
+        9.309,
+        15.897
+      ],
+      "forward": [
+        -0.989,
+        0.0991,
+        -0.1102
+      ],
+      "right": [
+        0.1107,
+        0.0,
+        -0.9939
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.05,
+      "banking": 0.03,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 135.946
+    },
+    {
+      "index": 155,
+      "position": [
+        -0.363,
+        9.322,
+        15.873
+      ],
+      "forward": [
+        -0.9996,
+        -0.0277,
+        0.0025
+      ],
+      "right": [
+        -0.0025,
+        0.0,
+        -1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.075,
+      "banking": 0.025,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 136.538
+    },
+    {
+      "index": 156,
+      "position": [
+        -1.012,
+        9.275,
+        15.9
+      ],
+      "forward": [
+        -0.9938,
+        -0.0951,
+        0.0583
+      ],
+      "right": [
+        -0.0586,
+        0.0,
+        -0.9983
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.1,
+      "banking": 0.02,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 137.19
+    },
+    {
+      "index": 157,
+      "position": [
+        -1.71,
+        9.193,
+        15.952
+      ],
+      "forward": [
+        -0.9904,
+        -0.1187,
+        0.0712
+      ],
+      "right": [
+        -0.0717,
+        0.0,
+        -0.9974
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.125,
+      "banking": 0.015,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 137.894
+    },
+    {
+      "index": 158,
+      "position": [
+        -2.447,
+        9.103,
+        16.003
+      ],
+      "forward": [
+        -0.9929,
+        -0.1079,
+        0.05
+      ],
+      "right": [
+        -0.0503,
+        0.0,
+        -0.9987
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.15,
+      "banking": 0.01,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 138.638
+    },
+    {
+      "index": 159,
+      "position": [
+        -3.213,
+        9.03,
+        16.028
+      ],
+      "forward": [
+        -0.9978,
+        -0.0662,
+        -0.002
+      ],
+      "right": [
+        0.002,
+        0.0,
+        -1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width": 5.175,
+      "banking": 0.005,
+      "surfaceType": "counter_stone",
+      "distanceFromStart": 139.408
+    }
+  ],
+  "checkpoints": [
+    {
+      "index": 0,
+      "id": "checkpoint_00",
+      "label": "Start / Finish (Peninsula Quartz)",
+      "waypointIndex": 0,
+      "position": [
+        -4.0,
+        9.0,
+        16.0
+      ],
+      "forward": [
+        -0.9987,
+        -0.0183,
+        -0.0469
+      ],
+      "width": 6.7,
+      "surfaceType": "counter_stone"
+    },
+    {
+      "index": 1,
+      "id": "checkpoint_01",
+      "label": "Giant Lollipop Jump Ramp",
+      "waypointIndex": 16,
+      "position": [
+        -15.0,
+        10.45,
+        11.2
+      ],
+      "forward": [
+        -0.3238,
+        0.0,
+        -0.9461
+      ],
+      "width": 6.1,
+      "surfaceType": "ramp_wood"
+    },
+    {
+      "index": 2,
+      "id": "checkpoint_02",
+      "label": "Toaster & Cutlery Chicane",
+      "waypointIndex": 32,
+      "position": [
+        -13.6,
+        9.0,
+        1.0
+      ],
+      "forward": [
+        0.0561,
+        0.0,
+        -0.9984
+      ],
+      "width": 6.1,
+      "surfaceType": "counter_stone"
+    },
+    {
+      "index": 3,
+      "id": "checkpoint_03",
+      "label": "Sink Dish-Rack Bridge",
+      "waypointIndex": 48,
+      "position": [
+        -13.5,
+        9.25,
+        -10.0
+      ],
+      "forward": [
+        0.0748,
+        -0.001,
+        -0.9972
+      ],
+      "width": 5.7,
+      "surfaceType": "sink_bridge"
+    },
+    {
+      "index": 4,
+      "id": "checkpoint_04",
+      "label": "Wavy Bacon Strip Chicane",
+      "waypointIndex": 64,
+      "position": [
+        -9.5,
+        9.22,
+        -18.6
+      ],
+      "forward": [
+        0.9667,
+        0.0013,
+        -0.256
+      ],
+      "width": 6.3,
+      "surfaceType": "bacon_strip"
+    },
+    {
+      "index": 5,
+      "id": "checkpoint_05",
+      "label": "Cereal Box & Ceramic Bowl Slalom",
+      "waypointIndex": 80,
+      "position": [
+        5.5,
+        9.0,
+        -18.4
+      ],
+      "forward": [
+        0.9952,
+        0.0007,
+        0.0977
+      ],
+      "width": 6.7,
+      "surfaceType": "counter_stone"
+    },
+    {
+      "index": 6,
+      "id": "checkpoint_06",
+      "label": "6-Burner Gas Stove Straight",
+      "waypointIndex": 96,
+      "position": [
+        15.5,
+        8.8,
+        -11.5
+      ],
+      "forward": [
+        0.1152,
+        -0.31,
+        0.9437
+      ],
+      "width": 6.3,
+      "surfaceType": "ramp_wood"
+    },
+    {
+      "index": 7,
+      "id": "checkpoint_07",
+      "label": "Counter-to-Floor Launch Ramp",
+      "waypointIndex": 112,
+      "position": [
+        15.5,
+        0.0,
+        5.0
+      ],
+      "forward": [
+        -0.0404,
+        -0.1442,
+        0.9887
+      ],
+      "width": 7.3,
+      "surfaceType": "floor_wood"
+    },
+    {
+      "index": 8,
+      "id": "checkpoint_08",
+      "label": "Hardwood Floor & Trash Bin Sweeper",
+      "waypointIndex": 128,
+      "position": [
+        9.5,
+        0.0,
+        24.5
+      ],
+      "forward": [
+        -0.7922,
+        0.0,
+        0.6103
+      ],
+      "width": 7.5,
+      "surfaceType": "floor_wood"
+    },
+    {
+      "index": 9,
+      "id": "checkpoint_09",
+      "label": "Barstool Slalom & Return Ramp",
+      "waypointIndex": 144,
+      "position": [
+        2.5,
+        4.6,
+        20.2
+      ],
+      "forward": [
+        -0.0535,
+        0.7051,
+        -0.7071
+      ],
+      "width": 6.3,
+      "surfaceType": "ramp_wood"
+    }
+  ],
+  "ramps": [
+    {
+      "id": "lollipop_jump_ramp",
+      "name": "Giant Lollipop Jump Ramp",
+      "type": "tabletop_jump_ramp",
+      "start": [
+        -13.2,
+        9.0,
+        14.2
+      ],
+      "apex": [
+        -15.0,
+        10.55,
+        11.2
+      ],
+      "end": [
+        -15.0,
+        9.0,
+        8.0
+      ],
+      "width": 4.6,
+      "slopeNormal": [
+        0.0,
+        0.948,
+        -0.318
+      ],
+      "boostMultiplier": 1.25,
+      "description": "Wooden tabletop jump ramp launching cars cleanly over the Giant Rainbow Swirl Lollipop."
+    },
+    {
+      "id": "sink_cutting_board_bridge",
+      "name": "Double Sink Cutting-Board & Dish-Rack Bridge",
+      "type": "flat_bridge",
+      "start": [
+        -13.5,
+        9.0,
+        -6.5
+      ],
+      "apex": [
+        -13.5,
+        9.25,
+        -10.0
+      ],
+      "end": [
+        -13.5,
+        9.0,
+        -13.5
+      ],
+      "width": 4.4,
+      "slopeNormal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "boostMultiplier": 1.0,
+      "description": "Wooden cutting board and stainless wire dish rack spanning the double kitchen sink."
+    },
+    {
+      "id": "bacon_strip_chicane_bridge",
+      "name": "Crispy Wavy Bacon Strip Chicane Bridge",
+      "type": "wavy_bridge",
+      "start": [
+        -12.2,
+        9.0,
+        -17.8
+      ],
+      "apex": [
+        -9.5,
+        9.28,
+        -18.6
+      ],
+      "end": [
+        -6.8,
+        9.0,
+        -18.8
+      ],
+      "width": 4.8,
+      "slopeNormal": [
+        0.0,
+        0.99,
+        0.14
+      ],
+      "boostMultiplier": 1.1,
+      "description": "Giant crispy wavy bacon strips laid across the back-left counter corner."
+    },
+    {
+      "id": "counter_to_floor_ramp",
+      "name": "Counter-to-Floor Launch Ramp",
+      "type": "elevation_ramp_down",
+      "start": [
+        15.5,
+        9.0,
+        -12.5
+      ],
+      "apex": [
+        15.5,
+        4.5,
+        -3.5
+      ],
+      "end": [
+        15.5,
+        0.0,
+        5.5
+      ],
+      "width": 5.0,
+      "slopeNormal": [
+        0.0,
+        0.894,
+        0.447
+      ],
+      "boostMultiplier": 1.35,
+      "description": "Long wooden launch ramp descending from the right-hand stove counter down to the hardwood floor."
+    },
+    {
+      "id": "floor_to_counter_ramp",
+      "name": "Floor-to-Counter Return Ramp",
+      "type": "elevation_ramp_up",
+      "start": [
+        2.5,
+        0.0,
+        25.5
+      ],
+      "apex": [
+        2.2,
+        4.5,
+        20.8
+      ],
+      "end": [
+        1.5,
+        9.0,
+        16.2
+      ],
+      "width": 5.0,
+      "slopeNormal": [
+        0.0,
+        0.72,
+        0.69
+      ],
+      "boostMultiplier": 1.2,
+      "description": "Steep wooden return ramp climbing from the hardwood floor back onto the white quartz peninsula."
+    }
+  ],
+  "staticObstacles": [
+    {
+      "id": "giant_lollipop_candy_head",
+      "name": "Giant Rainbow Swirl Lollipop (Candy Disc)",
+      "type": "giant_lollipop",
+      "colliderType": "cylinder",
+      "position": [
+        -18.2,
+        10.35,
+        11.2
+      ],
+      "size": [
+        3.2,
+        2.7,
+        3.2
+      ],
+      "radius": 1.6,
+      "rotationY": 0.35,
+      "color": "#ff2e88",
+      "secondaryColor": "#ffee33",
+      "stickStart": [
+        -18.2,
+        9.35,
+        11.2
+      ],
+      "stickEnd": [
+        -12.5,
+        9.22,
+        11.2
+      ],
+      "description": "Giant rainbow swirl lollipop lying across the counter directly beneath the Lollipop Jump Ramp!"
+    },
+    {
+      "id": "cereal_box_crunchy_loops",
+      "name": "Crunchy Fruit Loops Cereal Box",
+      "type": "cereal_box",
+      "colliderType": "box",
+      "position": [
+        -10.5,
+        11.1,
+        4.2
+      ],
+      "size": [
+        2.2,
+        4.2,
+        1.1
+      ],
+      "rotationY": -0.35,
+      "color": "#ff5722",
+      "secondaryColor": "#ffd54f"
+    },
+    {
+      "id": "cereal_box_honey_stars",
+      "name": "Honey Stars Giant Family Cereal Box",
+      "type": "cereal_box",
+      "colliderType": "box",
+      "position": [
+        -5.2,
+        11.2,
+        -15.4
+      ],
+      "size": [
+        2.4,
+        4.4,
+        1.2
+      ],
+      "rotationY": 0.18,
+      "color": "#ffc107",
+      "secondaryColor": "#1e88e5"
+    },
+    {
+      "id": "cereal_box_choco_pops",
+      "name": "Choco Pops Cereal Box",
+      "type": "cereal_box",
+      "colliderType": "box",
+      "position": [
+        1.2,
+        11.0,
+        -21.8
+      ],
+      "size": [
+        2.1,
+        4.0,
+        1.1
+      ],
+      "rotationY": -0.12,
+      "color": "#5d4037",
+      "secondaryColor": "#ffca28"
+    },
+    {
+      "id": "peninsula_red_snack_box",
+      "name": "Red Cookie & Snack Box (From Photo Foreground)",
+      "type": "cereal_box",
+      "colliderType": "box",
+      "position": [
+        -4.5,
+        9.75,
+        11.8
+      ],
+      "size": [
+        3.2,
+        1.5,
+        2.4
+      ],
+      "rotationY": 0.28,
+      "color": "#c62828",
+      "secondaryColor": "#ffcc80"
+    },
+    {
+      "id": "curious_goat_coffee_bag",
+      "name": "Curious Goat White Coffee Bag (From Photo Peninsula)",
+      "type": "cereal_box",
+      "colliderType": "box",
+      "position": [
+        -11.8,
+        10.45,
+        19.2
+      ],
+      "size": [
+        1.4,
+        2.9,
+        1.1
+      ],
+      "rotationY": 0.42,
+      "color": "#f5f5f5",
+      "secondaryColor": "#212121"
+    },
+    {
+      "id": "ceramic_bowl_blue_rim",
+      "name": "Large Ceramic Mixing Bowl",
+      "type": "ceramic_bowl",
+      "colliderType": "cylinder",
+      "position": [
+        -17.4,
+        9.75,
+        -0.5
+      ],
+      "size": [
+        2.4,
+        1.5,
+        2.4
+      ],
+      "radius": 1.2,
+      "rotationY": 0.0,
+      "color": "#e3f2fd",
+      "secondaryColor": "#1976d2"
+    },
+    {
+      "id": "ceramic_bowl_cereal_spoon",
+      "name": "Ceramic Breakfast Bowl with Milk",
+      "type": "ceramic_bowl",
+      "colliderType": "cylinder",
+      "position": [
+        -0.8,
+        9.65,
+        -15.2
+      ],
+      "size": [
+        2.1,
+        1.3,
+        2.1
+      ],
+      "radius": 1.05,
+      "rotationY": 0.5,
+      "color": "#fff8e1",
+      "secondaryColor": "#ff8f00"
+    },
+    {
+      "id": "ceramic_bowl_peninsula",
+      "name": "Pink Ceramic Fruit Bowl",
+      "type": "ceramic_bowl",
+      "colliderType": "cylinder",
+      "position": [
+        -8.2,
+        9.65,
+        19.6
+      ],
+      "size": [
+        2.2,
+        1.3,
+        2.2
+      ],
+      "radius": 1.1,
+      "rotationY": 0.0,
+      "color": "#fce4ec",
+      "secondaryColor": "#d81b60"
+    },
+    {
+      "id": "cutlery_chef_knife_1",
+      "name": "Stainless Steel Chef's Knife (Chicane Barrier)",
+      "type": "cutlery_knife",
+      "colliderType": "box",
+      "position": [
+        -17.2,
+        9.18,
+        2.8
+      ],
+      "size": [
+        0.55,
+        0.35,
+        3.4
+      ],
+      "rotationY": 0.15,
+      "color": "#dfe4ea",
+      "secondaryColor": "#1e272e"
+    },
+    {
+      "id": "cutlery_chef_knife_2",
+      "name": "Serrated Bread Knife (Back Counter Guide Rail)",
+      "type": "cutlery_knife",
+      "colliderType": "box",
+      "position": [
+        -5.8,
+        9.18,
+        -21.6
+      ],
+      "size": [
+        3.5,
+        0.35,
+        0.55
+      ],
+      "rotationY": 0.08,
+      "color": "#dfe4ea",
+      "secondaryColor": "#1e272e"
+    },
+    {
+      "id": "cutlery_dinner_fork_1",
+      "name": "Oversized Stainless Steel Dinner Fork",
+      "type": "cutlery_fork",
+      "colliderType": "box",
+      "position": [
+        -10.4,
+        9.16,
+        -1.2
+      ],
+      "size": [
+        0.6,
+        0.3,
+        2.9
+      ],
+      "rotationY": -0.22,
+      "color": "#ced6e0",
+      "secondaryColor": "#a4b0be"
+    },
+    {
+      "id": "cutlery_dinner_fork_2",
+      "name": "Stainless Steel Salad Fork (Stove Approach)",
+      "type": "cutlery_fork",
+      "colliderType": "box",
+      "position": [
+        8.5,
+        9.16,
+        -15.2
+      ],
+      "size": [
+        2.8,
+        0.3,
+        0.6
+      ],
+      "rotationY": -0.1,
+      "color": "#ced6e0",
+      "secondaryColor": "#a4b0be"
+    },
+    {
+      "id": "cutlery_soup_spoon_1",
+      "name": "Polished Stainless Soup Spoon",
+      "type": "cutlery_spoon",
+      "colliderType": "box",
+      "position": [
+        -16.8,
+        9.16,
+        -14.2
+      ],
+      "size": [
+        0.7,
+        0.3,
+        2.8
+      ],
+      "rotationY": 0.38,
+      "color": "#eccc68",
+      "secondaryColor": "#dfe4ea"
+    },
+    {
+      "id": "cutlery_soup_spoon_2",
+      "name": "Stainless Tablespoon (Peninsula Guard)",
+      "type": "cutlery_spoon",
+      "colliderType": "box",
+      "position": [
+        -6.2,
+        9.16,
+        19.2
+      ],
+      "size": [
+        2.8,
+        0.3,
+        0.7
+      ],
+      "rotationY": 0.05,
+      "color": "#dfe4ea",
+      "secondaryColor": "#a4b0be"
+    },
+    {
+      "id": "bacon_strip_guard_left",
+      "name": "Crispy Wavy Bacon Strip (Inner Corner Curb)",
+      "type": "bacon_strip",
+      "colliderType": "box",
+      "position": [
+        -8.2,
+        9.18,
+        -15.6
+      ],
+      "size": [
+        3.4,
+        0.32,
+        0.9
+      ],
+      "rotationY": 0.42,
+      "color": "#8d2319",
+      "secondaryColor": "#d97b59"
+    },
+    {
+      "id": "bacon_strip_guard_right",
+      "name": "Crispy Wavy Bacon Strip (Outer Corner Curb)",
+      "type": "bacon_strip",
+      "colliderType": "box",
+      "position": [
+        -11.5,
+        9.18,
+        -21.6
+      ],
+      "size": [
+        3.6,
+        0.32,
+        0.9
+      ],
+      "rotationY": 0.32,
+      "color": "#8d2319",
+      "secondaryColor": "#d97b59"
+    },
+    {
+      "id": "appliance_sodastream",
+      "name": "Black SodaStream Sparkling Water Maker",
+      "type": "appliance",
+      "colliderType": "box",
+      "position": [
+        -21.8,
+        11.2,
+        13.5
+      ],
+      "size": [
+        2.2,
+        4.4,
+        2.4
+      ],
+      "rotationY": 0.2,
+      "color": "#18191c",
+      "secondaryColor": "#cfd8dc"
+    },
+    {
+      "id": "appliance_smart_display",
+      "name": "White Smart Kitchen Screen Display",
+      "type": "appliance",
+      "colliderType": "box",
+      "position": [
+        -19.2,
+        9.8,
+        15.2
+      ],
+      "size": [
+        2.1,
+        1.6,
+        1.1
+      ],
+      "rotationY": 0.45,
+      "color": "#f5f6fa",
+      "secondaryColor": "#3742fa"
+    },
+    {
+      "id": "appliance_toaster_oven",
+      "name": "Stainless Steel Countertop Toaster Oven",
+      "type": "appliance",
+      "colliderType": "box",
+      "position": [
+        -20.2,
+        10.6,
+        6.2
+      ],
+      "size": [
+        3.8,
+        3.2,
+        5.2
+      ],
+      "rotationY": 0.05,
+      "color": "#b0bec5",
+      "secondaryColor": "#263238"
+    },
+    {
+      "id": "appliance_espresso_machine",
+      "name": "Chrome Espresso & Cappuccino Maker",
+      "type": "appliance",
+      "colliderType": "box",
+      "position": [
+        -19.8,
+        11.1,
+        -2.5
+      ],
+      "size": [
+        3.6,
+        4.2,
+        4.0
+      ],
+      "rotationY": 0.0,
+      "color": "#cfd8dc",
+      "secondaryColor": "#1c1c1c"
+    },
+    {
+      "id": "appliance_gas_stove_grates",
+      "name": "6-Burner Stainless Gas Range (Back Wall side)",
+      "type": "appliance_stove",
+      "colliderType": "box",
+      "position": [
+        6.5,
+        9.35,
+        -22.2
+      ],
+      "size": [
+        11.5,
+        0.7,
+        2.6
+      ],
+      "rotationY": 0.0,
+      "color": "#cfd8dc",
+      "secondaryColor": "#212121"
+    },
+    {
+      "id": "floor_stainless_trash_bin",
+      "name": "Light Grey / Stainless Rectangular Kitchen Trash Bin",
+      "type": "trash_bin",
+      "colliderType": "box",
+      "position": [
+        20.5,
+        3.2,
+        1.5
+      ],
+      "size": [
+        3.2,
+        6.4,
+        2.4
+      ],
+      "rotationY": -0.1,
+      "color": "#c8cacd",
+      "secondaryColor": "#8d9096"
+    },
+    {
+      "id": "floor_barstool_left",
+      "name": "Curved Walnut & Black Leather Barstool (Left)",
+      "type": "barstool",
+      "colliderType": "cylinder",
+      "position": [
+        -16.5,
+        4.8,
+        23.2
+      ],
+      "size": [
+        4.2,
+        9.6,
+        4.2
+      ],
+      "radius": 2.1,
+      "rotationY": 0.4,
+      "color": "#3e2723",
+      "secondaryColor": "#1a1a1a"
+    },
+    {
+      "id": "floor_barstool_right",
+      "name": "Curved Walnut & Black Leather Barstool (Right)",
+      "type": "barstool",
+      "colliderType": "cylinder",
+      "position": [
+        -5.8,
+        4.8,
+        24.5
+      ],
+      "size": [
+        4.4,
+        9.6,
+        4.4
+      ],
+      "radius": 2.2,
+      "rotationY": -0.25,
+      "color": "#3e2723",
+      "secondaryColor": "#1a1a1a"
+    }
+  ],
+  "dynamicProps": [
+    {
+      "id": "dyn_floral_tissue_box",
+      "name": "Floral Pattern Tissue Box (Peninsula)",
+      "type": "tissue_box",
+      "colliderType": "box",
+      "position": [
+        -8.8,
+        9.6,
+        13.8
+      ],
+      "size": [
+        2.2,
+        1.2,
+        1.3
+      ],
+      "radius": 1.1,
+      "mass": 0.8,
+      "rotationY": 0.15,
+      "color": "#e1bee7"
+    },
+    {
+      "id": "dyn_wooden_napkin_holder",
+      "name": "Wooden Napkin Dispenser (Peninsula Corner)",
+      "type": "napkin_holder",
+      "colliderType": "box",
+      "position": [
+        -2.2,
+        9.5,
+        19.5
+      ],
+      "size": [
+        2.0,
+        0.9,
+        1.4
+      ],
+      "radius": 1.0,
+      "mass": 1.1,
+      "rotationY": -0.35,
+      "color": "#d7ccc8"
+    },
+    {
+      "id": "dyn_pink_coffee_mug",
+      "name": "Pink Ceramic Coffee Mug (Near Sink)",
+      "type": "coffee_cup",
+      "colliderType": "sphere",
+      "position": [
+        -11.5,
+        9.55,
+        -5.2
+      ],
+      "size": [
+        1.0,
+        1.1,
+        1.0
+      ],
+      "radius": 0.65,
+      "mass": 0.6,
+      "rotationY": 0.0,
+      "color": "#f48fb1"
+    },
+    {
+      "id": "dyn_blue_coffee_mug",
+      "name": "Blue Ceramic Coffee Mug",
+      "type": "coffee_cup",
+      "colliderType": "sphere",
+      "position": [
+        -11.2,
+        9.55,
+        8.2
+      ],
+      "size": [
+        1.0,
+        1.1,
+        1.0
+      ],
+      "radius": 0.65,
+      "mass": 0.6,
+      "rotationY": 1.1,
+      "color": "#42a5f5"
+    },
+    {
+      "id": "dyn_espresso_cup_white",
+      "name": "White Ceramic Espresso Cup",
+      "type": "coffee_cup",
+      "colliderType": "sphere",
+      "position": [
+        -15.8,
+        9.45,
+        -1.0
+      ],
+      "size": [
+        0.85,
+        0.9,
+        0.85
+      ],
+      "radius": 0.55,
+      "mass": 0.45,
+      "rotationY": 0.4,
+      "color": "#ffffff"
+    },
+    {
+      "id": "dyn_yellow_cereal_mug",
+      "name": "Sunny Yellow Latte Cup (Back Counter)",
+      "type": "coffee_cup",
+      "colliderType": "sphere",
+      "position": [
+        3.2,
+        9.55,
+        -16.2
+      ],
+      "size": [
+        1.0,
+        1.1,
+        1.0
+      ],
+      "radius": 0.65,
+      "mass": 0.6,
+      "rotationY": -0.5,
+      "color": "#ffee58"
+    },
+    {
+      "id": "dyn_spice_jar_paprika",
+      "name": "Smoked Paprika Spice Jar",
+      "type": "spice_jar",
+      "colliderType": "sphere",
+      "position": [
+        -4.2,
+        9.5,
+        -19.8
+      ],
+      "size": [
+        0.75,
+        1.0,
+        0.75
+      ],
+      "radius": 0.5,
+      "mass": 0.4,
+      "rotationY": 0.0,
+      "color": "#d84315"
+    },
+    {
+      "id": "dyn_spice_jar_ basil",
+      "name": "Sweet Basil Glass Shaker",
+      "type": "spice_jar",
+      "colliderType": "sphere",
+      "position": [
+        11.2,
+        9.5,
+        -18.8
+      ],
+      "size": [
+        0.75,
+        1.0,
+        0.75
+      ],
+      "radius": 0.5,
+      "mass": 0.4,
+      "rotationY": 0.2,
+      "color": "#2e7d32"
+    },
+    {
+      "id": "dyn_floor_blue_gift_bag",
+      "name": "Blue Paper Shopping Bag on Hardwood Floor",
+      "type": "gift_bag",
+      "colliderType": "box",
+      "position": [
+        18.5,
+        0.35,
+        16.8
+      ],
+      "size": [
+        2.8,
+        0.6,
+        3.6
+      ],
+      "radius": 1.6,
+      "mass": 0.5,
+      "rotationY": 0.45,
+      "color": "#039be5"
+    },
+    {
+      "id": "dyn_floor_white_slipper_left",
+      "name": "White Slide Slipper (Left)",
+      "type": "slipper",
+      "colliderType": "box",
+      "position": [
+        -4.5,
+        0.25,
+        22.8
+      ],
+      "size": [
+        1.1,
+        0.45,
+        2.2
+      ],
+      "radius": 0.9,
+      "mass": 0.35,
+      "rotationY": 0.55,
+      "color": "#eceff1"
+    },
+    {
+      "id": "dyn_floor_white_slipper_right",
+      "name": "White Slide Slipper (Right)",
+      "type": "slipper",
+      "colliderType": "box",
+      "position": [
+        -2.8,
+        0.25,
+        23.4
+      ],
+      "size": [
+        1.1,
+        0.45,
+        2.2
+      ],
+      "radius": 0.9,
+      "mass": 0.35,
+      "rotationY": 0.25,
+      "color": "#eceff1"
+    }
+  ]
+}
